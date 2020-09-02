@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/gold-2889423_1920.jpg);
+}
+
+
+
+.slider{
+    margin: 40px auto;
+    width: 50%;
+    height: 700px;
+    border: 5px solid whitesmoke;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(54, 16, 22, 0.75);
+-moz-box-shadow:10px 10px 5px 0px rgba(54, 16, 22, 0.75);
+box-shadow:10px 10px 5px 0px rgba(54, 16, 22, 0.75);
+  
+}
+
+
+.img-box img{
+    width: 100%;
+  object-fit: cover;
+    height: 700px;
+    object-position: top center;
+
+}
+
+.btn:hover{
+    color: crimson;
+}
+.btn{
+    border: none;
+    outline: none;
+     
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px auto;
+
+}
+
+.btns{
+   
+    text-align: center;
+}
